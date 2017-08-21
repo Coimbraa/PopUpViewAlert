@@ -1,0 +1,16 @@
+PODS:
+  - PopUpViewAlert (0.1.0)
+
+DEPENDENCIES:
+  - PopUpViewAlert (from `../`)
+
+EXTERNAL SOURCES:
+  PopUpViewAlert:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PopUpViewAlert: d5a76c7085f7cfaa3fa780096ec2619efc684fb9
+
+PODFILE CHECKSUM: 80db9f599aaad7e047c222fa99dc400f1e95f5c0
+
+COCOAPODS: 1.2.1
