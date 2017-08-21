@@ -2,7 +2,7 @@
 
 THIS IS MY FIRST FRAMEWORK! HOPE YOU LIKE IT, AND FIND IT USEFULL, IF YOU SEE ANY BUG LET ME KNOW :)
 
-[![CI Status](http://img.shields.io/travis/Daniel Coimbra/PopUpViewAlert.svg?style=flat)](https://travis-ci.org/Daniel Coimbra/PopUpViewAlert)
+[![CI Status](http://img.shields.io/travis/Coimbraa/PopUpViewAlert.svg?style=flat)](https://travis-ci.org/Coimbraa/PopUpViewAlert)
 [![Version](https://img.shields.io/cocoapods/v/PopUpViewAlert.svg?style=flat)](http://cocoapods.org/pods/PopUpViewAlert)
 [![License](https://img.shields.io/cocoapods/l/PopUpViewAlert.svg?style=flat)](http://cocoapods.org/pods/PopUpViewAlert)
 [![Platform](https://img.shields.io/cocoapods/p/PopUpViewAlert.svg?style=flat)](http://cocoapods.org/pods/PopUpViewAlert)
