@@ -27,6 +27,20 @@ After install it via cocoaPod, go to your project Target, under "Linked Framewor
 import PopUpViewAlert
 ```
 
+## Attention
+
+`[!] Unable to find a specification for PopUpViewAlert`
+
+If this error pops Up while running `pod install` just run the following commands to update repository list in your machine:
+
+`pod repo update master`
+
+`pod setup`
+
+`pod install`
+
+And should be working by now.
+
 ## Usage
 
 After import the framework to your class:
