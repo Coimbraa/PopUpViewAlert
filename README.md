@@ -1,5 +1,7 @@
 # PopUpViewAlert
 
+THIS IS MY FIRST FRAMEWORK! HOPE YOU LIKE IT, AND FIND IT USEFULL, IF YOU SEE ANY BUG LET ME KNOW :)
+
 [![CI Status](http://img.shields.io/travis/Daniel Coimbra/PopUpViewAlert.svg?style=flat)](https://travis-ci.org/Daniel Coimbra/PopUpViewAlert)
 [![Version](https://img.shields.io/cocoapods/v/PopUpViewAlert.svg?style=flat)](http://cocoapods.org/pods/PopUpViewAlert)
 [![License](https://img.shields.io/cocoapods/l/PopUpViewAlert.svg?style=flat)](http://cocoapods.org/pods/PopUpViewAlert)
@@ -19,6 +21,69 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "PopUpViewAlert"
 ```
+
+After install it via cocoaPod, go to your project Target, under "Linked Frameworks and Libraries", add the PopUpViewAlert.framework, then you should be able to import the lib on your file.
+
+```ruby
+import PopUpViewAlert
+```
+
+## Usage
+
+After import the framework to your class:
+
+```ruby
+
+  var popView: View? = nil
+
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+    popView = View(origem: 0, type: PopUpOptions.sucess, title: "")
+    self.view.addSubview(popView!)
+	}
+  
+```
+With this constructor you will be able to set the origin Y of the pop up, if you want it on the top or on the middle, you can chose. 
+
+you can make multiple pop ups appear in the same class, with different types! to do that just use this code when you want it to appear:
+
+```ruby
+
+self.popView?.handleOptionChange(.sucess, "Your text here",seconds: 4)
+
+```
+
+ ## Abilities
+
+![alt text](https://user-images.githubusercontent.com/30239807/29525886-00d265b2-868c-11e7-9789-fde2f87e15be.jpeg) 
+![alt text](https://user-images.githubusercontent.com/30239807/29525887-00d5e85e-868c-11e7-9248-fab0edc9875e.jpeg) 
+![alt text](https://user-images.githubusercontent.com/30239807/29525889-00d9f868-868c-11e7-8411-1d28568e9713.jpeg) 
+![alt text](https://user-images.githubusercontent.com/30239807/29525888-00d943a0-868c-11e7-8718-fa7794c1d7f5.jpeg) 
+
+In this images, you can see the diferents types and advantages of this framwork.
+
+There are different types of PopUps: Success, danger and error:
+
+```ruby
+
+self.popView?.handleOptionChange(.sucess, "Your text here",seconds: 4)
+
+```
+```ruby
+
+self.popView?.handleOptionChange(.danger, "Your text here",seconds: 4)
+
+```
+```ruby
+
+self.popView?.handleOptionChange(.error, "Your text here",seconds: 4)
+
+```
+
+and as you can see you are able to set the timmer that the popUp will remain in your screen, and if you touch the popUp view the view will pop out!
+
+
 
 ## Author
 
