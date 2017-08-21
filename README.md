@@ -36,11 +36,11 @@ After import the framework to your class:
 
   var popView: View? = nil
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
+override func viewDidLoad() {
+	super.viewDidLoad()
 		
-    popView = View(origem: 0, type: PopUpOptions.sucess, title: "")
-    self.view.addSubview(popView!)
+    	popView = View(origem: 0, type: PopUpOptions.sucess, title: "")
+    	self.view.addSubview(popView!)
 	}
   
 ```
@@ -56,10 +56,8 @@ self.popView?.handleOptionChange(.sucess, "Your text here",seconds: 4)
 
  ## Abilities
 
-![alt text](https://user-images.githubusercontent.com/30239807/29525886-00d265b2-868c-11e7-9789-fde2f87e15be.jpeg) 
-![alt text](https://user-images.githubusercontent.com/30239807/29525887-00d5e85e-868c-11e7-9248-fab0edc9875e.jpeg) 
-![alt text](https://user-images.githubusercontent.com/30239807/29525889-00d9f868-868c-11e7-8411-1d28568e9713.jpeg) 
-![alt text](https://user-images.githubusercontent.com/30239807/29525888-00d943a0-868c-11e7-8718-fa7794c1d7f5.jpeg) 
+![alt text](https://user-images.githubusercontent.com/30239807/29527628-68f078aa-8691-11e7-83f4-b7fce0baf232.jpg) 
+ 
 
 In this images, you can see the diferents types and advantages of this framwork.
 
