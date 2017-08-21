@@ -34,14 +34,14 @@ After import the framework to your class:
 
 ```ruby
 
-  var popView: View? = nil
+var popView: View? = nil
 
 override func viewDidLoad() {
 	super.viewDidLoad()
 		
     	popView = View(origem: 0, type: PopUpOptions.sucess, title: "")
     	self.view.addSubview(popView!)
-	}
+}
   
 ```
 With this constructor you will be able to set the origin Y of the pop up, if you want it on the top or on the middle, you can chose. 
@@ -56,7 +56,7 @@ self.popView?.handleOptionChange(.sucess, "Your text here",seconds: 4)
 
  ## Abilities
 
-![alt text](https://user-images.githubusercontent.com/30239807/29527628-68f078aa-8691-11e7-83f4-b7fce0baf232.jpg) 
+![alt text](https://user-images.githubusercontent.com/30239807/29527970-48ba382c-8692-11e7-8610-592a9c545b0f.jpg 
  
 
 In this images, you can see the diferents types and advantages of this framwork.
