@@ -56,7 +56,7 @@ self.popView?.handleOptionChange(.sucess, "Your text here",seconds: 4)
 
  ## Abilities
 
-![alt text](https://user-images.githubusercontent.com/30239807/29527970-48ba382c-8692-11e7-8610-592a9c545b0f.jpg 
+![alt text](https://user-images.githubusercontent.com/30239807/29527970-48ba382c-8692-11e7-8610-592a9c545b0f.jpg)
  
 
 In this images, you can see the diferents types and advantages of this framwork.
