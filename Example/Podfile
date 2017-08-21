@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PopUpViewAlert_Example' do
+  pod 'PopUpViewAlert', :path => '../'
+
+  target 'PopUpViewAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
